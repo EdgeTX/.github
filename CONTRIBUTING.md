@@ -33,7 +33,11 @@ Please do not open an issue on GitHub until you have collected positive feedback
 
  * Code should be formatted as per the `.clang-format` in the repo root. If you are modifying existing code, try to fit in with any style (i.e. camelCase, indentation) where resonable. Don't be afraid to reformat a block of code to match the autoformatter as there is a lot of legacy code in the codebase. 
 
- * Please keep Pull Requests single focus - i.e. if you are adding a feature for say colorlcd radios, do not incorporate a bugfix for B&W screens in that PR... It is better to have multiple, smaller, single focus PRs than larger, "spaghetti" , PRs, and this will make the testing and merge review quicker and easier. 
+ * Please keep Pull Requests single focus - i.e. if you are adding a feature for say colorlcd radios, do not incorporate a bugfix for B&W screens in that PR... It is better to have multiple, smaller, single focus PRs than larger, "spaghetti" , PRs, and this will make the testing and merge review quicker and easier.
+ 
+ * Pull Requests are generally squash merged, so there is no need to flatten your work before merge. It would be appreciated if the PR is held back for any significant duration if you would periodically rebase it against the main development branch, especially if any merge conflicts arise.
+ 
+ * We are using the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification for PR titles, so please keep this in mind when titling your PR. Where possible, please keep PR titles between 50 and 72 characters. 
 
  * GitHub (and to some extent `git`) doesn't like files that don't have a newline at the end of file... don't be that person that makes me fix that up when I see that annoying red mark in the review screen :laughing:
  
